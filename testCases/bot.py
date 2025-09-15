@@ -1,5 +1,5 @@
 from utils import readProperties, getAccessToken
-from testCases.apiUrls import getApiUrls
+from utils.apiUrls import getApiUrls
 
 class ChatBot:
     @staticmethod

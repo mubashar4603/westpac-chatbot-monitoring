@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04108827-edaa-41fa-9824-d40c71c81211" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiRequests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiRequests/requestChatHistoryAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/apiUrls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gspreadrw-ad4a54ce9b94.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/apiUrls.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/apiUrl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/requestAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiRequests/requestChatAPI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +37,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.apiRequester.executor": "Run",
-    "Python.apiUrls.executor": "Run",
-    "Python.bot.executor": "Run",
-    "Python.emailSender.executor": "Run",
-    "Python.gSheet.executor": "Run",
-    "Python.getAccessToken.executor": "Run",
-    "Python.requestAPI.executor": "Run",
-    "Python.test0.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHELLCHECK.PATH": "/home/mubashar4603/.local/share/JetBrains/PyCharmCE2025.1/Shell Script/shellcheck",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/mubashar4603/PycharmProjects/westpac-chatbot-monitoring"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.apiRequester.executor&quot;: &quot;Run&quot;,
+    &quot;Python.apiUrls.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.emailSender.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gSheet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.getAccessToken.executor&quot;: &quot;Run&quot;,
+    &quot;Python.requestAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test0.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/home/mubashar4603/.local/share/JetBrains/PyCharmCE2025.1/Shell Script/shellcheck&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mubashar4603/PycharmProjects/westpac-chatbot-monitoring&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.requestAPI">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apiRequests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.requestChatAPI">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="monitoring-bot" />
       <option name="ENV_FILES" value="" />
@@ -138,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="requestAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="requestChatAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="monitoring-bot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,7 +161,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/requestAPI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apiRequests/requestChatAPI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +172,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.requestAPI" />
+        <item itemvalue="Python.requestChatAPI" />
         <item itemvalue="Python.bot" />
         <item itemvalue="Python.gSheet" />
         <item itemvalue="Python.getAccessToken" />
